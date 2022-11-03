@@ -1,0 +1,904 @@
+/***
+  German Jesus Pereira Muñoz PhD.
+  Internet de las Cosas 
+***/
+
+html {
+    font-family: Arial;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  body{
+    background-color:  #333;
+  }
+  
+  h1 {
+    color: white;
+    padding: 2vh;
+    align-items: center;
+    margin-top: 200px;
+  }
+  h4{
+    color: white;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  span{
+    color: white;
+  }
+  .button {
+    display: inline-block;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: #f44336;
+  }
+  .units {
+    font-size: 1.2rem;
+   }
+  .sensor-labels {
+    font-size: 1.5rem;
+    vertical-align:middle;
+    padding-bottom: 15px;
+  }
+  input[type="range"] {
+    -webkit-appearance: none;
+   }
+   
+   input[type="range"]:focus {
+    outline: none;
+   }
+  
+   input[type="range"]::-webkit-slider-runnable-track {
+    background: tomato;
+    height: 5px;
+   }
+   
+   input[type="range"]::-moz-range-track {
+    background: tomato;
+    height: 5px;
+   }
+  
+   input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background: pink;
+    margin-top: -5px;
+    border-radius: 50%;
+   }
+   
+   input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background: pink;
+    margin-top: -5px;
+    border-radius: 50%;
+   }
+      
+  
+  
+  .sticky-footer {
+      font-family: "Montserrat", sans-serif;
+      align-items: center;
+      text-align: center;
+      background-color: #333;
+      bottom: 0;
+      color: #ffffff;
+      display: flex;
+      font-size: 18px;
+      height: 100px;
+      justify-content: center;
+      z-index: 1;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      }
+  
+  .sticky-footer a {
+          font-family: "Montserrat", sans-serif;
+          font-size: 20px;
+          text-decoration: none;
+          color: #ffffff;
+          transition: all 0.5s;
+      }
+  
+  .sticky-footer a:hover {
+          font-size: 18px;
+          text-decoration: none;
+          color: tomato;
+      }
+  .circular--square {
+            border-radius: 50%;
+      }
+    .waveStrength-3 {
+      margin-top: 25%;
+    }
+    .wave {
+      display: inline-block;
+      border: 10px solid transparent;
+      border-top-color: currentColor;
+      border-radius: 50%;
+      border-style: solid;
+      margin: 5px;
+      color: #eee;
+    }
+    
+    .wv4 {
+      border-top-color: rgb(0, 255, 0);
+    }
+    .wv3 {
+      border-top-color: rgb(0, 255, 0);
+    }
+    .wv2 {
+      border-top-color: rgb(0, 255, 0);
+    }
+    .wv1 {
+      border-top-color: rgb(0, 255, 0);
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    body {
+      background: #e9dab5;
+   }
+    .containe, .cabinet, .hang, .cup, .oven, .switch, .mid, .tabl, .line, .washer, .plate, .pot, .vent, .smoke, .pasta {
+      position: absolute;
+   }
+    .containe {
+      margin: 870px 0px 0px 880px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 400px;
+      height: 200px;
+   }
+    .cabinet {
+      width: 450px;
+      height: 15px;
+      border: 3px solid #485566;
+      background: #d8b189;
+      top: -70px;
+      left: -15px;
+   }
+    .cabinet div {
+      position: absolute;
+      width: 20px;
+      height: 30px;
+      top: -36px;
+      background: #dcf2fc;
+      border: 3px solid #485566;
+      border-radius: 4px;
+      box-shadow: inset -4px 0 0 rgba(0, 0, 0, 0.1);
+   }
+    .cabinet div:before, .cabinet div:after {
+      position: absolute;
+      content: '';
+   }
+    .cabinet div:before {
+      top: -10px;
+      left: -3px;
+      width: 20px;
+      height: 5px;
+      background: #64b6ac;
+      border: 3px solid #485566;
+      border-radius: 4px;
+   }
+    .cabinet div:nth-child(1) {
+      left: 20px;
+   }
+    .cabinet div:nth-child(2) {
+      left: 50px;
+      top: -56px;
+      width: 20px;
+      height: 50px;
+      background: #dcf2fc;
+   }
+    .cabinet div:nth-child(3) {
+      left: 80px;
+   }
+    .pasta {
+      top: -117px;
+      left: 45px;
+      width: 3px;
+      height: 47px;
+      background: #fdd692;
+      transform: rotate(-2deg);
+      box-shadow: 10px 0 0 #fdd692, 5px 0 0 #fdd692;
+   }
+    .vent {
+      top: -52px;
+      left: 46px;
+      width: 40px;
+      height: 40px;
+      background: #d9dee2;
+      border: 3px solid #485566;
+      box-shadow: inset -5px 0 0 rgba(0, 0, 0, 0.1);
+   }
+    .vent:before, .vent:after {
+      position: absolute;
+      content: '';
+   }
+    .vent:after {
+      width: 40px;
+      top: 43px;
+      left: -50px;
+      border-bottom: 29px solid #d9dee2;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+   }
+    .vent:before {
+      width: 48px;
+      top: 43px;
+      left: -64px;
+      border-bottom: 33px solid #485566;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+   }
+    .vent div {
+      position: absolute;
+      top: 75px;
+      left: -62px;
+      width: 159px;
+      height: 10px;
+      background: #d9dee2;
+      border: 3px solid #485566;
+      border-top: none;
+   }
+    .hang {
+      top: -50px;
+      left: 250px;
+      width: 3px;
+      height: 18px;
+      background: #485566;
+      box-shadow: 120px 0 0 #485566, 60px 0 0 #485566;
+   }
+    .hang div:nth-child(2) {
+      left: 60px;
+   }
+    .hang div:nth-child(3) {
+      left: 120px;
+   }
+    .cup {
+      top: 20px;
+      width: 27px;
+      height: 35px;
+      background: #ef767a;
+      border-radius: 5px;
+      border: 3px solid #485566;
+      transform: rotate(30deg);
+      box-shadow: inset -5px 0 0 rgba(0, 0, 0, 0.1);
+   }
+    .cup:before {
+      position: absolute;
+      content: '';
+      top: 4px;
+      left: -15px;
+      width: 12px;
+      height: 15px;
+      border: 3px solid #485566;
+      border-radius: 4px;
+      border-right: none;
+   }
+    .oven {
+      width: 150px;
+      height: 170px;
+      background: #d9dee2;
+      top: 130px;
+      border: 3px solid #485566;
+   }
+    .switch {
+      width: 150px;
+      height: 30px;
+      background: #b5bfc4;
+      border-bottom: 3px solid #485566;
+   }
+    .switch:before, .switch:after {
+      position: absolute;
+      content: '';
+   }
+    .switch:before {
+      top: 7px;
+      left: 10px;
+      width: 15px;
+      height: 15px;
+      background: #6b7f89;
+      border-radius: 100%;
+      box-shadow: 60px 0 0 #6b7f89, 30px 0 0 #6b7f89;
+   }
+    .mid {
+      left: 15px;
+      width: 120px;
+      height: 70px;
+      background: #a7d0e5;
+      top: 60px;
+   }
+    .mid:before, .mid:after {
+      position: absolute;
+      content: '';
+   }
+    .mid:before {
+      top: -10px;
+      left: -8px;
+      width: 130px;
+      height: 10px;
+      border: 3px solid #485566;
+      background: #b5bfc4;
+      border-radius: 4px;
+   }
+    .mid:after {
+      top: -34px;
+      left: 40px;
+      border-bottom: 120px solid rgba(255, 255, 255, 0.3);
+      border-left: 40px solid transparent;
+      transform: rotate(270deg);
+   }
+    .tabl {
+      top: 146px;
+      left: 153px;
+      width: 252px;
+      height: 15px;
+      border: 3px solid #485566;
+      background: #d8b189;
+   }
+    .tabl div {
+      position: absolute;
+      background: #fcefda;
+      width: 100px;
+      height: 49px;
+   }
+    .tabl div:nth-child(1) {
+      top: 18px;
+      border-right: 3px solid #485566;
+   }
+    .tabl div:nth-child(2) {
+      top: 58px;
+      border-right: 3px solid #485566;
+      box-shadow: inset 0 3px 0 #485566;
+   }
+    .tabl div:nth-child(3) {
+      top: 105px;
+      box-shadow: inset 0 3px 0 #485566;
+      border-right: 3px solid #485566;
+      border-bottom: 3px solid #485566;
+   }
+    .line {
+      top: 186px;
+      left: 187px;
+      width: 40px;
+      height: 3px;
+      background: #b4ada5;
+      box-shadow: 0 90px 0 #b4ada5, 0 45px 0 #b4ada5;
+   }
+    .washer {
+      top: 164px;
+      left: 255px;
+      width: 150px;
+      height: 136px;
+      background: #d9dee2;
+      border: 3px solid #485566;
+   }
+    .washer div:nth-child(1), .washer div:nth-child(2) {
+      position: absolute;
+      top: 4px;
+      left: 110px;
+      width: 14px;
+      height: 14px;
+      background: #49beaa;
+      border-radius: 100%;
+   }
+    .washer div:nth-child(2) {
+      background: #ef767a;
+      left: 130px;
+   }
+    .washer div:nth-child(3) {
+      position: absolute;
+      top: 30px;
+      left: 11px;
+      width: 130px;
+      height: 10px;
+      background: #dcf2fc;
+   }
+    .plate {
+      top: 120px;
+      left: 200px;
+      width: 60px;
+      height: 20px;
+      background: #f4f4f4;
+      border-radius: 0 0 100px 100px;
+      border: 3px solid #485566;
+      box-shadow: inset -5px 0 0 rgba(0, 0, 0, 0.2);
+   }
+    .pot {
+      width: 55px;
+      height: 40px;
+      background: #f4f4f4;
+      border-radius: 5px;
+      border: 3px solid #485566;
+      top: 87px;
+      left: 10px;
+      box-shadow: inset -5px 0 0 rgba(0, 0, 0, 0.1);
+   }
+    .pot:before, .pot:after {
+      position: absolute;
+      content: '';
+      width: 7px;
+      height: 10px;
+      border-radius: 5px;
+      border: 3px solid #485566;
+      left: -13px;
+      top: 5px;
+   }
+    .pot:after {
+      left: 55px;
+   }
+    .smoke {
+      top: -35px;
+      left: 20px;
+      width: 10px;
+      height: 25px;
+      border-radius: 100px 0 100px 0;
+      background: #dcf2fc;
+      box-shadow: 15px 5px 0 #dcf2fc;
+      animation: 3s steam infinite ease;
+   }
+    @keyframes steam {
+      100% {
+        transform: translateY(-15px);
+        opacity: 0;
+     }
+   }
+    @media (max-width: 800px) {
+      .containe {
+        transform: scale(0.7);
+     }
+   }
+    
+  
+  
+          @keyframes spin {
+              from {
+                  transform: rotate(0deg);
+              }
+  
+              to {
+                  transform: rotate(360deg);
+              }
+          }
+  
+          @keyframes off {
+              to {
+                  transform: rotate(380deg);
+              }
+          }
+  
+          @keyframes off2 {
+              to {
+                  transform: rotate(880deg);
+              }
+          }
+  
+          @keyframes fly {
+              to {
+                  margin-top: 50px;
+              }
+          }
+  
+          span {
+              display: block;
+          }
+  
+  
+          .fly {
+              transition: 0.5s all cubic-bezier(0.04, 0.06, 0, 1.18), 1s transform;
+              width: 10px;
+              height: 6px;
+              background: green;
+              border-radius: 50%;
+              position: absolute;
+              animation: fly 5s alternate infinite ease-in-out;
+          }
+  
+          .fly:nth-of-type(1) {
+              top: -78px;
+              left: -200px;
+          }
+  
+          .fly:nth-of-type(2) {
+              transform: translateY(-10px);
+              animation-delay: 4s;
+              top: 5px;
+              right: -250px;
+          }
+  
+          .fly:nth-of-type(3) {
+              transform: translateY(0px);
+              top: 400px;
+              animation-delay: 2s;
+              right: -400px;
+          }
+  
+          .fly::after,
+          .fly::before {
+              content: "";
+              position: absolute;
+              width: 7px;
+              height: 5px;
+              background-color: rgba(0, 0, 0, 0.5);
+              display: block;
+              border-radius: 50%;
+          }
+  
+          .fly::before {
+              bottom: 4px;
+              transform: rotate(325deg);
+              left: 3px;
+          }
+  
+          .fly::after {
+              transform: rotate(45deg);
+              bottom: 6px;
+          }
+  
+          .fan {
+              margin-left: 200px;
+              width: 500px;
+              height: 500px;
+              position: relative;
+              z-index: 1;
+              margin-top: -15px;
+              perspective: 500px;
+          }
+  
+  
+          .fan__root {
+              width: 200px;
+              position: absolute;
+              bottom: 0;
+              left: 50%;
+              transform: translateX(-50%);
+          }
+  
+          .fan__root .top {
+              overflow: hidden;
+              width: 200px;
+              height: 25px;
+              position: relative;
+          }
+  
+          .fan__root .top::after {
+              content: "";
+              display: block;
+              width: 200px;
+              height: 50px;
+              background: #2f423f;
+              border-radius: 50%;
+          }
+  
+          .fan__root .top .red {
+              position: absolute;
+              width: 30px;
+              height: 15px;
+              border-radius: 15px;
+              display: block;
+              right: 30px;
+              background: #f15249;
+              cursor: pointer;
+              overflow: hidden;
+          }
+  
+          .fan__root .top .green {
+              position: absolute;
+              width: 30px;
+              height: 15px;
+              border-radius: 15px;
+              display: block;
+              right: 85px;
+              background: #32ba7c;
+              cursor: pointer;
+              overflow: hidden;
+          }
+  
+          .fan__root .top .green::after {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 50%;
+              position: absolute;
+              bottom: 0;
+              background: #0aa06e;
+          }
+  
+          .fan__root .top .red::after {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 50%;
+              position: absolute;
+              bottom: 0;
+              background: #a00000;
+          }
+  
+          .fan__root .top .blue {
+              position: absolute;
+              cursor: pointer;
+              width: 30px;
+              height: 15px;
+              border-radius: 15px;
+              display: block;
+              left: 30px;
+              background: #3ac2f2;
+              overflow: hidden;
+          }
+  
+          .fan__root .top .blue::after {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 50%;
+              position: absolute;
+              bottom: 0;
+              background: #009cc6;
+          }
+  
+          .fan__root .bottom {
+              overflow: hidden;
+              width: 200px;
+              height: 20px;
+          }
+  
+          .fan__root .bottom::after {
+              content: "";
+              display: block;
+              width: 200px;
+              height: 40px;
+              background: #2f423f;
+              border-radius: 18%;
+              transform: translateY(-30px);
+          }
+  
+          .fan__staddle {
+              position: absolute;
+              bottom: 45px;
+              background: #2f423f;
+              height: 270px;
+              width: 13px;
+              left: 50%;
+              transform: translateX(-50%);
+          }
+  
+          .fan__engine {
+              position: absolute;
+              bottom: 0px;
+              width: 130px;
+              height: 130px;
+              background: #2f423f;
+              border-radius: 50%;
+              left: 50%;
+              transform: translateX(-50%);
+          }
+  
+          .fan__engine::after {
+              content: "";
+              background: #2f423f;
+              display: block;
+              width: 25px;
+              height: 50px;
+              position: absolute;
+              top: 105px;
+              left: 50%;
+              transform: translateX(-50%);
+              border-radius: 0 0 5px 5px;
+          }
+  
+          .fan__blades {
+              width: 230px;
+              height: 230px;
+              position: absolute;
+              bottom: -50px;
+              transition: 2s;
+              transform-origin: center center;
+              left: calc(50% - 115px);
+              z-index: 1;
+              animation: spin infinite 0.38s linear forwards;
+          }
+  
+          .fan__blades .fan__blades {
+              bottom: 0;
+              animation: spin infinite 0.5s linear forwards;
+          }
+  
+          .fan__blades .blade {
+              position: absolute;
+              width: 50px;
+              height: 100%;
+              left: 50%;
+              transform: translateX(-50%) skewY(25deg);
+              perspective: 500px;
+              transform-style: preserve-3d;
+          }
+  
+          .fan__blades .blade:nth-child(2) {
+              transform: translateX(-50%) rotate(90deg) skewY(25deg);
+          }
+  
+          .fan__blades .blade:nth-child(3) {
+              transform: translateX(-50%) rotate(180deg) skewY(25deg);
+          }
+  
+          .fan__blades .blade:nth-child(4) {
+              transform: translateX(-50%) rotate(270deg) skewY(25deg);
+          }
+  
+          .fan__blades .blade span {
+              width: 100%;
+              height: 200%;
+              border-radius: 44px;
+              background: #ffc114;
+              position: absolute;
+              top: -66px;
+              display: block;
+              transform-style: preserve-3d;
+              transform: rotateX(81deg);
+              overflow: hidden;
+          }
+  
+          .fan__blades .blade span::after {
+              width: 50%;
+              height: 100%;
+              content: "";
+              display: block;
+              background: #fca12a;
+              transform: rotate(0deg);
+          }
+  
+          .fan__blades .center {
+              position: absolute;
+              overflow: hidden;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%) rotate(45deg);
+              background: #32ba7c;
+              z-index: 2;
+          }
+  
+          .fan__blades .center::after {
+              display: block;
+              content: "";
+              width: 40px;
+              height: 20px;
+              background: #0aa06e;
+          }
+  
+          .head {
+              transition: 1s transform;
+              height: auto;
+              width: auto;
+              position: absolute;
+              width: 300px;
+              height: 300px;
+              bottom: 195px;
+              left: calc(50% - 150px);
+              /* transform: translateX(-50%); */
+          }
+  
+          #engine:checked+div>div {
+              animation: off2 1s ease-out forwards;
+          }
+  
+          #engine:checked+div>span:nth-child(1) {
+              transition: 5s all ease-in-out, 1s transform;
+              left: 0px;
+              top: 0px;
+          }
+  
+          #engine:checked+div>span:nth-child(2) {
+              transition: 5s all ease-in-out, 1s transform;
+              right: 0px;
+              top: 0px;
+          }
+  
+          #engine:checked+div>span:nth-child(3) {
+              transition: 7s all ease-in-out, 1s transform;
+              right: -50px;
+              top: 200px;
+          }
+  
+          #engine2:checked+div {
+              animation: off 1s ease-out forwards;
+          }
+  
+          #jack:checked+div {
+              transform: translateY(-115px);
+          }
+  
+          #jack:checked+div>div:nth-child(3)>span {
+              transform: translateY(115px);
+          }
+  
+          @media screen and (max-width: 900px) {
+              .window {
+                  flex: 1 25% !important;
+              }
+          }
+  
+          @media screen and (max-width: 800px) {
+              .window {
+                  flex: 1 33.3333333% !important;
+              }
+          }
+  
+          @media screen and (max-width: 700px) {
+              .window {
+                  flex: 1 50% !important;
+              }
+          }
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;     
+  }
+  
+  #time{
+    font-size: 30pt;
+  }
+  .container1{ 
+            box-shadow:1px 0px 10px #000032ce;
+            padding:50px 200px;           
+        }
+        input[type=text]{
+            border: 2px solid #000032ce;
+            box-shadow:1px 0px 10px #000032ce;
+            font-size: 13pt;
+            padding: 10px 50px;
+        }
+  .opt{
+            color: white;   
+            font-size: 13pt;
+            margin: 8px 0;
+            background-color: #000032;
+            padding: 14px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor:pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            
+  }
