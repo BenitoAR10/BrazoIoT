@@ -66,6 +66,53 @@
         </div>
     </header>
 
+
+
+    <br><br>
+  <div class='container'>
+    <table class='table table-striped'>
+        <thead>
+            <tr><th>Ip Local</th><th>Host Name</th><th>Status</th><th>SSID</th><th>PSK</th><th>RSSI</th>
+        </thead>
+        <tbody>
+            <tr>
+              <td>%IP%</td>
+              <td>%HOSTNAME%</td>
+              <td>%STATUS%</td>
+              <td>%SSID%</td>
+              <td>%PSK%</td>
+              <td id="rssi" name="rssi">%RSSI%</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <center>
+    <form action="/SLIDERR" method="post">
+      <h4 style="color: black;">Mandando 1:</h4><br>
+      <input type="range" id="pwmInput1"  min="0" max="1023" value="500" onchange="updateTextInput(this.value);"  >
+      <input type="number" id="textInput1" name="pwmValue1" onchange="updateTextInput(this.value);" value="500" style="width:70px">
+      <label for="pwmInput1">PWM</label><br><br>
+
+      <h4 style="color: black;">Mandando 2:</h4><br>
+      <input type="range" id="pwmInput1"  min="0" max="1023" value="500" onchange="updateTextInput(this.value);"  >
+      <input type="number" id="textInput1" name="pwmValue1" onchange="updateTextInput(this.value);" value="500" style="width:70px">
+      <label for="pwmInput1">PWM</label><br><br>
+
+      <h4 style="color: black;">Mandando 3:</h4><br>
+      <input type="range" id="pwmInput1"  min="0" max="1023" value="500" onchange="updateTextInput(this.value);"  >
+      <input type="number" id="textInput1" name="pwmValue1" onchange="updateTextInput(this.value);" value="500" style="width:70px">
+      <label for="pwmInput1">PWM</label><br><br>
+
+      <h4 style="color: black;">Mandando 4:</h4><br>
+      <input type="range" id="pwmInput1"  min="0" max="1023" value="500" onchange="updateTextInput(this.value);"  >
+      <input type="number" id="textInput1" name="pwmValue1" onchange="updateTextInput(this.value);" value="500" style="width:70px">
+      <label for="pwmInput1">PWM</label><br><br>
+      <button type="submit" value="Submit" class="btn btn-primary">Enviar</button><br><br><br>
+    </form>
+    <br><br>
+  </center>
+<br><br>
+
     <footer class="sticky-footer">
         <p>
             <a href="https://www.ucb.edu.bo/"
